@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0b84396-6c3d-450a-a316-e00bed9446ac" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ECMAScript6.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/면접준비.txt" afterPath="$PROJECT_DIR$/면접준비.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/웹접근성.txt" afterPath="$PROJECT_DIR$/웹접근성.txt" />
     </list>
     <ignored path="설명서.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,11 +36,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="면접준비.txt" pinned="false" current-in-tab="false">
+      <file leaf-file-name="면접준비.txt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/면접준비.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2525">
-              <caret line="101" column="22" selection-start-line="101" selection-start-column="22" selection-end-line="101" selection-end-column="22" />
+            <state relative-caret-position="795">
+              <caret line="183" column="0" selection-start-line="183" selection-start-column="0" selection-end-line="183" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -68,11 +66,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ECMAScript6.txt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ECMAScript6.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ECMAScript6.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state relative-caret-position="425">
+              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -91,8 +89,8 @@
         <option value="$PROJECT_DIR$/react-native base 설치법.txt" />
         <option value="$PROJECT_DIR$/bookorder.txt" />
         <option value="$PROJECT_DIR$/웹접근성.txt" />
-        <option value="$PROJECT_DIR$/면접준비.txt" />
         <option value="$PROJECT_DIR$/ECMAScript6.txt" />
+        <option value="$PROJECT_DIR$/면접준비.txt" />
       </list>
     </option>
   </component>
@@ -240,7 +238,7 @@
       <workItem from="1487339348716" duration="1843000" />
       <workItem from="1487344381337" duration="940000" />
       <workItem from="1487742279788" duration="2303000" />
-      <workItem from="1487748734853" duration="5044000" />
+      <workItem from="1487748734853" duration="11346000" />
     </task>
     <task id="LOCAL-00001" summary="ff">
       <created>1487748756050</created>
@@ -256,11 +254,18 @@
       <option name="project" value="LOCAL" />
       <updated>1487748779965</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="ff">
+      <created>1487754402200</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1487754402200</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36699000" />
+    <option name="totallyTimeSpent" value="43001000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2391" y="-9" width="2418" height="1318" extended-state="6" />
@@ -441,18 +446,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/면접준비.txt">
+    <entry file="file://$PROJECT_DIR$/ECMAScript6.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2525">
-          <caret line="101" column="22" selection-start-line="101" selection-start-column="22" selection-end-line="101" selection-end-column="22" />
+        <state relative-caret-position="425">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ECMAScript6.txt">
+    <entry file="file://$PROJECT_DIR$/면접준비.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        <state relative-caret-position="795">
+          <caret line="183" column="0" selection-start-line="183" selection-start-column="0" selection-end-line="183" selection-end-column="0" />
           <folding />
         </state>
       </provider>
