@@ -1,0 +1,35 @@
+react-native init AwesomeNativeBase
+
+cd AwesomeNativeBase
+
+npm install native-base --save
+
+npm install react-native-vector-icons --save
+
+$react-native link react-native-vector-icons
+
+http://nativebase.io/docs/v0.5.13/getting-started
+
+
+실행
+cmd에 react-native start 치고 다른 cmd 창을 연후 react-native run-android
+
+
+
+NativeBase-KitchenSink 설치법
+1. 깃가서 순서대로 설치후
+2. \node_modules\react-native-code-push\scripts\postlink\ios\postlink.js:26
+var oldJsCodeLocationAssignmentStatement = appDelegateContents.match(/(jsCodeLocation = .*)\n/)[1];
+에서 [1] 제거
+3. android안에 gradle.properties에 추가
+MYAPP_RELEASE_STORE_FILE = ""
+  MYAPP_RELEASE_STORE_PASSWORD = "123"
+  MYAPP_RELEASE_KEY_ALIAS = "onekwan"
+  MYAPP_RELEASE_KEY_PASSWORD = "123"
+
+4. SDK TOOL SUPPORT repositiroy 설치
+
+
+
+코드푸쉬키
+doY3F6rNfXtXecMhs3KpWdmRYs4nV1t6uA1KG
