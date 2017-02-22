@@ -1,6 +1,6 @@
 
 
-* 전화면접
+
 1. 웹싸이트 최적화
     ㄱ. 페이지가 로드 되면서 렌더트리가 생성될때 css가 필요 하므로 css 를 헤더위에 넣고, script를 body 안 최 하단에 넣어서 스크립트 로딩으로 인한 페이지 로딩 지연을 줄인다.
     ㄴ. 렌더링 엔진(html + css layout javascript dom binding)
@@ -56,10 +56,6 @@ http://mylko72.maru.net/jquerylab/pattern/javascript.optimize.html?hn=3&sn=2
 
 
 
-
-    - 범용적인 프레임워크 사용 경험 여부
-        spring이나 .net 프레임워크를 말씀하시는 건가요?
-
     - 오픈소스 경험 있는가?
         개인적으로 만든 hashtag editor가 있습니다. 구글 플러스 커뮤니티에 올려고 놓았고 사람들과 피드백을 주고 받을 계횝니다.
 
@@ -79,30 +75,13 @@ http://mylko72.maru.net/jquerylab/pattern/javascript.optimize.html?hn=3&sn=2
 
 AMP Cache를 사용하면 웹 페이지의 모든 JavaScript 파일과 이미지 파일을 같은 출처(origin)에서 로딩할 수 있으며 HTTP 2.0의 장점을 최대한 살릴 수 있다.
 
-2. 1차면접
+
     - 랜더링 과정(랜더링 엔진)
         로딩 : 리소스 스트림를 읽어온다.
         파싱 : html을 파싱하여 dom 트리를 만든다.
         css를 이용하여 rendering 트리를 만든다. display :None은 안함
         객체의 위치와 크기로 레이아웃을 잡고 마지막으로 페인팅 과정을 통해 렌더링이 마무리 된다.
-    - ECMAscript6
-    지원 현황 ie는 11밑으로는 아에 없고 그나마 11도 지원이 낮음 edge는 지원률이 그나마 높음
-    compiler 와 polyfill 사용해야 함
 
-    babel es6 지원이 가장 많음 compiler 그외에도 traceur,typescript
-
-    클래스 생성 및 상속 가능 다른 oop 언어처럼
-    ${name} 으로 template 스트링 가능
-    var naem = "dd";
-    'Hello ${name} '
-    배열 접근
-    [a,,b]= list
-    [b,a] = [a,b]
-    proimse 함수
-    ajax sync 가능
-    export 와 import 가능
-    map, weakMap, weakset 생김
-    어느값과도 유니크한 symbol 생김
 
     - Agile 방식 http://skmagic.tistory.com/entry/%EC%95%A0%EC%9E%90%EC%9D%BC-AGILE-%EA%B0%9C%EB%B0%9C-%EB%B0%A9%EB%B2%95
     http://blog.rightbrain.co.kr/?p=5810
@@ -162,7 +141,9 @@ AMP Cache를 사용하면 웹 페이지의 모든 JavaScript 파일과 이미지
 
 
 
-3. 문제
+
+
+문제
     - 1000* 1000 셀에 한가지 셀에 1000가지 색이 들어 갈때 필요한 메모리의 양
     시간 복잡도 , 소트
     1차에서 간단한 알고리즘에 대해 물었습니다. 기억에 남는건 1~1000의 숫자중 중복 가능하게 1000개의 숫자를 뽑았을때, 이들 중 중간값을 묻는 문제였습니다.
@@ -192,7 +173,7 @@ AMP Cache를 사용하면 웹 페이지의 모든 JavaScript 파일과 이미지
 
 
 
-4. 2차면접
+
     - 왜 이직을 하려고 하는가,
     - 왜 해당 언어를 사용하는가,
     - 이용하거나 알고있는 네이버 서비스에 대해 말해보시오,

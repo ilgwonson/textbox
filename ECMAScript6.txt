@@ -1,0 +1,65 @@
+- ECMAscript6
+
+    지원 현황 ie는 11밑으로는 아에 없고 그나마 11도 지원이 낮음 edge는 지원률이 그나마 높음
+
+    compiler 와 polyfill 사용해야 함
+
+    babel es6 지원이 가장 많음 compiler 그외에도 traceur,typescript
+
+    기능 비교 싸이트 : http://es6-features.org/#BlockScopedVariables
+
+
+    1. const 변수 생김
+
+    2. let
+        - 호이스팅이 일어 나지 않는다.
+        - for, if문의 블록문 안에서도 스코프를 가진다.
+        http://blog.nekoromancer.kr/2016/01/26/es6-var-let-%EA%B7%B8%EB%A6%AC%EA%B3%A0-const/
+
+    3. 함수는 {}안에서도 따로 스코프를 가진다.
+
+    4. arrow function 형식이 생겼다.
+        (v) => {}
+
+    5. forEach의 this가 배열이 아닌 함수가 실행된 오프젝트로 바꼈다.
+
+    6. function에 default 값 선언 가능 function f (x, y = 7, z = 42)
+
+    7. arguments 대용 ...a
+
+    8. ...params  concat이나 split처럼 사용 가능
+
+    9. string template 기능
+        - ${name} 으로 template 스트링 가능
+        - var name = "dd";
+        - 'Hello ${name}'
+
+    10. export 와 import 가능
+
+    11. 클래스 생성 및 상속 가능 다른 oop 언어처럼 static 속성도 가능 getter, setter도 가능
+
+    12. iterator생성
+
+    13. map, weakMap, weakset 생김
+
+    14. symbol 생김
+
+    15. 배열 접근
+        [a,,b]= list
+        [b,a] = [a,b]
+
+    16. proimse 함수
+
+    17. ajax sync 가능
+
+
+
+
+
+
+
+
+
+
+
+
