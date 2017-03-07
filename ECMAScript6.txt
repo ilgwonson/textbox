@@ -13,7 +13,7 @@
 
     2. let
         - 호이스팅이 일어 나지 않는다.
-        - for, if문의 블록문 안에서도 스코프를 가진다.
+        - for, if문의 블록문 안에서 스코프를 가진다.
         http://blog.nekoromancer.kr/2016/01/26/es6-var-let-%EA%B7%B8%EB%A6%AC%EA%B3%A0-const/
 
     3. 함수는 {}안에서도 따로 스코프를 가진다.
@@ -21,7 +21,7 @@
     4. arrow function 형식이 생겼다.
         (v) => {}
 
-    5. forEach의 this가 배열이 아닌 함수가 실행된 오프젝트로 바꼈다.
+    5. forEach의 this가 window가 아닌 함수가 실행된 오프젝트로 바꼈다.
 
     6. function에 default 값 선언 가능 function f (x, y = 7, z = 42)
 

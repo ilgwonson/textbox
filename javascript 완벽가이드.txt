@@ -156,9 +156,28 @@
     - animate의 queue 속성을 true로하면 애니메이션을 실행 대기열에 담는다. 메서드 체이닝때 순차적으로 됨
     - css 결합연산자 : 요소간의 관계를 나타냄 A B, A>B A+B, A~B
     - jquery filter 선택자 좋음
-    - find 초 contents 이런것들은 선택자 스택을 생성한다. end()를 쓰면 예전으로 돌아간다.
+    - find ,contents 이런것들은 선택자 스택을 생성한다. end()를 쓰면 예전으로 돌아간다.
     - 웹스토리지는 서로 다른브라우저로 접근할시 처음에 데이터를 못 읽어 온다.(파이어폭스로 방문한 싸이트를 크롬으로 재방문하게 되면)
     - 웹스트로지는 값을 읽을때 복제본을 가져오기 때문에 값 변경이 안된다. 그래서 api를 써야한다.
     - image객체의 src를 설정하는 것만으로도 이미지를 로드 한다.
     - 서로 다른 출처 스크립트 간의 메시지 교환 postMessage() onmessage()
     - 멀티쓰레드 웹워커
+
+함수들
+    - propertyIsEnumerable() : 해당 속성이 객체의 속성(상속받은 것 제외)이고 열거할수 있을경우
+    - Object.keys() : 프로퍼티 이름을 배열로 반환(열거할수 있는것만,프로토타입 제외)
+    - Object.getOwnPropertyNames() : 프로퍼티 이름을 배열로 반환(ALL,프로토타입 제외)
+    - Object.defineProperty(객체,속성,설정) : 속성의 읽기, 열거, 수정(프로토타입은 수정 안됨)
+    - Object.getPrototypeOf, object.isPrototypeof : 객체의 프로토 타입을 검사한다.
+    - Object.isExtensible : 객체가 확장 가능한지 검사
+    - Object.preventExtensible : 객체 확장 못하게 만든다.
+    - Obejct.seal : 객체 확장 불가, 설정 변경 불가, writable true값 변경 가능
+    - Object.freeze : 객체 확장 불가, 설정 변경 불가, 값 변경 불가능, setter를 통해서는 값변경 가능
+    - map() : 배열요소들을 모두 함수로 돌려서 결과 배열 반환
+    - filter() : flag값을 리턴해 true인 배열요소만 반환
+    - every() : 함수의 조건식에 대한 배열 모든 요소가 true면 true 반환
+    - some() : 함수의 조건식에 대해 모든 요소가 true거나 false 거나 하면 안됨
+    - reduce() : 배열 요소를 함수를 통해 하나의 값으로 변환
+    - reduceRight() : reduce의 반대 방향으로
+    - indexOf(1), lastIndexOf(2) : 배열 요소값 반환 시작순서만 다름
+    - f.bind(o) : o 객체에 f 함수를 속성으로 추가하고 그함수를 o.f(x)로 실행한다. 매개변수를 몇개 미리 바인딩할수 있다

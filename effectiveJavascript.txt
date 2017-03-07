@@ -1,0 +1,51 @@
+"use strict"는 블록 범위를 가지고 있다.
+
+소수의 비트연산자는 의미가 없다. 소수를 정수로 바꾸고 실행된다음 소수로 돌린다.
+
+isNaN 은 숫자를 받으면 false , NaN 을 받으면 true, 희한하게도 나머지것들도 다 true (x !== x) 이방법이 좋음
+
+트루시니스 트루가 펄스가 아니지만 그것처럼 동작하는것
+
+new String으로 선언되면 typeof가 object로 나온다
+
+string 객체 끼리의 비교문은 항상 false
+
+"1234" == true -> true로 나오니 조심할것
+
+var f = function double(x){return x*2};
+이런식으로 선언할경우 f라는 함수가 생기고 double이라는 함수는 생기지 않는다. double함수명은 double함수내에서 재귀함수로 쓰일수 있다.
+
+var f = function g(){}
+var g = null;
+
+function이 if문이나 반복문안에 있을경우 조건을 만족하지 못해 실행이 안되면 스코프가 꼬일수 있다. 그리고 몇몇 브라우저는 에러가 발생한다.
+
+간접적 eval 사용법 (전역스코프에서 평가)
+var f=eval;
+return f("x");
+(0,eval)(src);
+
+argument객체 배열을 추가 삭제 할수 없다.
+
+이터레이터는 데이터의 모음에 연속적으로 접근할 수 있는 방법을 제공하는 객체다.
+
+arguments는 자동으로 클로저 되지 않는다. 변수에 대입해야 한다.
+
+foreach this 전역객체
+
+함수.tostring() 브라우저마다 기준이 달라 위험할수 있고 bind로 연결된 함수는 네이티브 코드로 표현되 볼수 없다.
+
+arguments.caller는 재귀함수에서 무한루프에 빠질수 있다.
+
+c.prototype은 new c()로 생성된 객체의 프로토타입을 만드는 데 사용된다.
+Object.getPrototypeOf(obj)는 obj의 프로토타입 객체를 가져오기 위한 표준 ES5매커니즘이다.
+obj.__proto__는 obj릐 프로토타입 객체를 가져오는 비표준 매커니즘이다.
+
+new없을때 에러 안내기
+if(!(this instanceof User)){
+    return new User();
+}
+var self = this instanceof User ? this : object.create(User.prototype);
+return self;
+
+if문이나 반복문 안의 펑션은 호이스팅이 안되서 진입을 안하면 함수가 존재 하지 않는다.
